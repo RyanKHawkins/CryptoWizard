@@ -12,6 +12,7 @@ def strip_string(string):
             string = string.replace(char, "")
     return string
 
+    # return (char for char in string if char in alphabet)
 
 # group characters into equal parts
 def group_characters(string, num=3, null='x'):
